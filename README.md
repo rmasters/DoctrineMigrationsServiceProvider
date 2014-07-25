@@ -63,7 +63,11 @@ doctrine.migrations.name        | Name of migration suite                       
 
 ## Commands
 
-The commands [mirror those in the Doctrine Migrations bundle][commands] for Symfony.
+The commands [mirror those in the Doctrine Migrations bundle][commands] for
+Symfony.
+
+You will need to setup a PHP script that can execute console commands. See
+[src/Resources/console.php](src/Resources/Console.php) for an example.
 
 ## License
 

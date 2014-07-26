@@ -23,10 +23,6 @@ class DoctrineMigrationsServiceProvider implements ServiceProviderInterface
         $app['doctrine.migrations.name'] = 'Application Migrations';
 
         /**
-         * Register services
-         */
-
-        /**
          * Register commands
          */
         $app['dispatcher']->addListener(ConsoleEvents::INIT, function (ConsoleEvent $event) use ($app) {
